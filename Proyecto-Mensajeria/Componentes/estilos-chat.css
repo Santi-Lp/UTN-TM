@@ -1,0 +1,54 @@
+.contenedor{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: 100%;
+    background-size: cover;
+    background-image: url(/assets/fondo\ negro\ wsp.jpg);
+}
+
+.contenedor-chat{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid rgb(63, 142, 190);
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #005c4b;
+
+}
+
+.header{
+    color: black;
+    font-weight: bold;
+}
+
+.mensaje{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: small;
+
+}
+
+
+
+.mensaje-derecha{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.mensaje-izquierda{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
